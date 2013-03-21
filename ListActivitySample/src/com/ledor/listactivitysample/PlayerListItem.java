@@ -40,9 +40,10 @@ public class PlayerListItem {
 			// mArtist = mediafile.getArtist();
 			// mDuration = mediafile.getDuration();
 			// mIcon = mediafile.getBitmap();
-			mTitle = mediaFile.getName();
+			mTitle = mediaFile.getName().substring(0, 20);
 			mArtist = mediaFile.getName();
-			mDuration = mediaFile.getName();
+			//mDuration = mediaFile.getName();
+			mDuration = "00:00:00";
 			mIcon = BitmapFactory.decodeResource(context.getResources(), R.drawable.music_icon);
 			mFilePath = path;
 			break;
