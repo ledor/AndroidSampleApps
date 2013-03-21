@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RandomShuffleActivity" >
+
+	<ImageView  
+		android:id="@+id/imageView1"
+		android:visibility="gone"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_alignParentTop="true"
+		android:contentDescription="@string/card" />
+	<ImageView  
+		android:id="@+id/imageView2"
+		android:visibility="gone"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_alignParentTop="true"
+		android:contentDescription="@string/card" />
+    <GridView  
+		android:id="@+id/myGrid3"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:verticalSpacing="10dp"
+		android:horizontalSpacing="10dp"
+		android:numColumns="3"
+		android:columnWidth="200dp"
+		android:stretchMode="columnWidth"		    
+		android:gravity="center"
+		android:layout_alignParentTop="true" />
+	<LinearLayout
+		android:id="@+id/buttons3"
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/myGrid3" >
+		<Button
+			android:id="@+id/shuffle3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip"
+			android:text="@string/app_name" />
+		<Button
+			android:id="@+id/flipcard3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip"
+			android:text="@string/flip_card" />
+	</LinearLayout>
+
+</RelativeLayout>

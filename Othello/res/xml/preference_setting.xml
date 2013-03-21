@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="settingscreen"
+        android:title="Settings">
+	<PreferenceCategory android:title="User Setting">
+	    <EditTextPreference
+	            android:title="User Name"
+	            android:inputType="text" android:summary="Set your user name here"
+	            android:key="username" android:persistent="true"
+	            android:defaultValue="" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Game Setting">
+		<ListPreference
+	         android:title="Game Level"
+	         android:entries="@array/GameLevel"
+	         android:entryValues="@array/GameLevel"
+	         android:dialogTitle="Choose an option please"
+	         android:key="gamelevel" android:persistent="true"
+	         android:defaultValue="@string/gameLevel_default"  />
+			</PreferenceCategory>
+</PreferenceScreen> 

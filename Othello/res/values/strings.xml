@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">Othello</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="menu_new">New Game</string>
+    <string name="menu_highscore">High Score</string>
+    
+    <string name="title_activity_othello">Othello</string>
+    
+    <string name="whiteWinner">WHITE has won the game!</string>
+    <string name="blackWinner">BLACK has won the game!</string>
+    <string name="draw">Game is a draw.</string>
+    
+    <string name="settings">Settings</string>
+    <string-array name="GameLevel">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+        <item>Expert</item>
+    </string-array>
+    <string name="gameLevel_default">Beginner</string>
+    
+    <string name="title_activity_setting">Setting</string>
+
+</resources>

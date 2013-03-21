@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlinkingShuffleActivity" >
+
+	<GridView  
+		android:id="@+id/myGrid4"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:verticalSpacing="10dp"
+		android:horizontalSpacing="10dp"
+		android:numColumns="3"
+		android:columnWidth="200dp"
+		android:stretchMode="columnWidth"		    
+		android:gravity="center"
+		android:layout_alignParentTop="true"
+		android:layoutAnimation="@anim/anim_grid"
+		 />
+		<!-- android:layoutAnimation="@anim/anim_grid" -->
+		<LinearLayout
+		android:id="@+id/buttons4"
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/myGrid4" >
+		<Button
+			android:id="@+id/shuffle4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip"
+			android:text="@string/app_name" />
+		<Button
+			android:id="@+id/flipcard4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip"
+			android:text="@string/flip_card" />
+	</LinearLayout>
+
+</RelativeLayout>
