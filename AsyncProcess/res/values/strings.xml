@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AsyncProcess</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_simple_async_proceess">SimpleAsyncProceess</string>
+    <string name="show_progress">Show Progress Bar</string>
+    <string name="title_activity_async_http_request">AsyncHttpRequest</string>
+    <string name="search">Search</string>
+    <string name="avatar">Avatar</string>
+    <string name="title_activity_async_download_image">AsyncDownloadImage</string>
+
+</resources>
